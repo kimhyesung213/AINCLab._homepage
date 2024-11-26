@@ -1,0 +1,84 @@
+.nav-link:hover{
+    color: #ffc107 !important;
+    font-weight: bold;
+}
+
+/* 네비게이션 바 */
+.navbar {
+  padding: 0; /* 패딩 제거 */
+  height: 60px; /* 고정 높이 */
+  display: flex;
+  align-items: center; /* 자식 요소 세로 중앙 정렬 */
+}
+
+/* 로고 영역 */
+.navbar-brand {
+  padding: 0; /* 추가 여백 제거 */
+  padding-left: 3rem; /* 로고의 좌측 여백 */
+  margin: 0;
+  height: 100%; /* 부모 높이에 맞춤 */
+  display: flex;
+  align-items: center; /* 세로 중앙 정렬 */
+}
+
+/* 로고 이미지 */
+.navbar-brand img {
+    padding-right: 10rem; /* 메뉴의 우측 여백 */
+  height: 100%; /* 네비게이션 바 높이에 맞춤 */
+  max-height: 60px; /* 부모보다 크지 않도록 제한 */
+  width: auto; /* 비율 유지 */
+  display: block; /* 불필요한 공백 제거 */
+}
+.navbar {
+  display: flex;
+  justify-content: space-between; /* 로고와 버튼을 양쪽 끝으로 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  padding: 0 1rem; /* 좌우 여백 조정 */
+}
+
+.navbar-brand {
+  margin: 0; /* 불필요한 마진 제거 */
+}
+
+.navbar-nav {
+  margin-left: auto; /* 네비게이션 항목을 오른쪽으로 정렬 */
+}
+
+
+.myText{
+    text-align: justify !important;
+}
+
+.card-hover:hover{
+    background-color: beige;
+    filter: grayscale(0%)
+}
+
+.card-hover{
+    filter: grayscale(20%)
+}
+
+.research-hover:hover{
+    background-color:rgba(255,255,0, 0.03);
+    filter: grayscale(0%)
+}
+
+.research-hover{    
+    filter: grayscale(20%)
+}
+
+.text-h2-responsive {
+    font-size: calc(100% + 0.7vw + 0.7vh);
+}
+
+.text-h4-responsive {
+    font-size: calc(90% + 0.5vw + 0.5vh);
+}
+
+.text-h5-responsive {
+    font-size: calc(85% + 0.35vw + 0.35vh);
+}
+
+.text-p-responsive {
+    font-size: calc(70% + 0.25vw + 0.25vh);
+}
