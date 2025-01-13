@@ -8,8 +8,26 @@
 
 <style>
     .carousel-inner img {
-        max-height: 200px; /* 원하는 높이로 설정 */
+        max-height: 250px; /* 원하는 높이로 설정 */
         object-fit: cover; /* 이미지가 잘리지 않고 적절히 조정되도록 설정 */
+    }
+    <style>
+    .headerImg {
+        height: 500px; /* 이미지 높이 조정 */
+        object-fit: cover; /* 이미지가 컨테이너에 맞게 조정 */
+        border-radius: 8px; /* 모서리 둥글게 (선택 사항) */
+        margin: 0 auto; /* 중앙 정렬 */
+    }
+
+    .carousel-caption {
+        border-radius: 8px;
+        padding: 10px;
+    }
+
+    @media (max-width: 768px) {
+        .headerImg {
+            height: 300px; /* 작은 화면에서는 높이 축소 */
+        }
     }
 </style>
 
@@ -110,30 +128,31 @@
     <div class="d-flex align-items-start">
         <!-- 텍스트 콘텐츠 -->
         <div class="flex-grow-1 me-4">
-            <h3>저희 연구실에서는 음성, 음향을 기반으로 사람의 인지 능력을 향상시킬 수 있는 인공지능을 연구하고 있습니다.</h3>
+            <h5 class="text-dark fw-bold border-bottom border-2 pb-2 text-h5-responsive">저희 연구실에서는 음성, 음향을 기반으로 사람의 인지 능력을 향상시킬 수 있는 인공지능을 연구하고 있습니다.</h5>
             <ul>
-                <li>청각 상황인지 (Auditory Situation Awareness)</li>
-                <li>자동 음성인식 (Automatic Speech Recognition)</li>
-                <li>청력 증강 (Auditory Augmentation)</li>
-                <li>음성 합성 및 변환 (Speech Synthesis and Translation)</li>
-                <li>음성 향상 및 디노이징 (Speech Enhancement and Denoising)</li>
+                <li><h4>청각 상황인지 (Auditory Situation Awareness)<br></h4></li>
+                <li><h4>자동 음성인식 (Automatic Speech Recognition)<br></h4></li>
+                <li><h4>청력 증강 (Auditory Augmentation)<br></h4></li>
+                <li><h4>음성 합성 및 변환 (Speech Synthesis and Translation)<br></h4></li>
+                <li><h4>음성 향상 및 디노이징 (Speech Enhancement and Denoising)</h4></li>
             </ul>
         </div>
 
         <!-- 이미지 콘텐츠 -->
         <div>
-            <img src="images/기술들.png" alt="기술 설명 이미지" class="img-fluid shadow rounded" style="max-width: 400px;">
+            <img src="images/기술들.png" alt="기술 설명 이미지" class="img-fluid shadow rounded" style="max-width: 600px;">
         </div>
     </div>
 </div>
 
         <div class="container border-bottom border-2 border-dark my-5 px-1">
-                    <h2 class="text-dark fw-bold border-bottom border-2 pb-2 text-h2-responsive">Contact Us</h2>
+                    <h5 class="text-dark fw-bold border-bottom border-2 pb-2 text-h5-responsive">Contact Us</h5>
                     <ul>
-                        <li><p class="text-p-responsive"><지도 교수><br>김선만<br>E-mail: smkim@hs.ac.kr</p></li>
-                        <li><p class="text-p-responsive"><랩 학생 대표><br>노진산<br>E-mail: jiminbot20@hs.ac.kr</p></li>
+                        <li><p class="text-p-responsive"><지도 교수><br>김선만<br>E-mail: smkim@hs.ac.kr
+                        <br> +82-031-379-0652</p></li>
+                        <li><p class="text-p-responsive"><랩 학생 대표><br>노진산<br>E-mail: rohjinsan02@hs.ac.kr</p></li>
                         <li>
-                            <h4 class="text-p-responsive"><b>(18101) 경기도 오산시 한신대길 137 (한신대학교) 18503호<br>137 Hanshindae-gil, Osan-si, Gyeonggi-do, 18101 South Korea<br>+82-031-379-0652</b></h4>
+                            <h4 class="text-p-responsive"><b>(18101) 경기도 오산시 한신대길 137 (한신대학교) 18503호<br></b></h4>
                         </li>
                     </ul>
       
